@@ -27,16 +27,32 @@
         <script src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/toki.js"></script>
 
-        <h1>This is a Heading</h1>
-        <p>This is a paragraph.</p>
-        <div class="row">
-            <div class="col-md-2">
-                <button id="btn-on" type="button" class="btn waves-effect waves-light btn-block btn-info lang">ON</button>
-            </div>
-            <div class="col-md-2">
-                <button id="btn-off" type="button" class="btn waves-effect waves-light btn-block btn-info lang">OFF</button>
-            </div>
+        
+        <!-- ADD database -->
+        <div class="container">
+            <form>
+                <h1>HELLO WORK</h1>
+                <div class="form-group">
+                    <label for="id">ID:</label>
+                    <input type="number" min="0" class="form-control" id="id">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name">
+                    <label for="age">AGE:</label>
+                    <input type="number" min="0" class="form-control" id="age">
+                    <label for="address">ADDRESS:</label>
+                    <input type="text" class="form-control" id="address">
+                    <label for="salary">SALARY:</label>
+                    <input type="number" min="0" class="form-control" id="salary">
+                </div>
+                <!-- button -->
+                <div class="row">
+                    <div class="col-md-2">
+                        <button id="btn-on" type="button" class="btn waves-effect waves-light btn-block btn-info lang">save</button>
+                    </div>
+                </div>
+            </form>
         </div>
+        
         <ol>        </ol>
 
         <!-- ============================================================== -->

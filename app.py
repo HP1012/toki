@@ -24,7 +24,7 @@ def start_eel(mode='chrome'):
     try:
         # web.generate_html()
         #/home/hp1012/.local/lib/python3.8/site-packages/eel/__init__.py line 141
-        eel.start('index.html', options=options,suppress_error=True,close_callback=True,disable_cache=True)
+        eel.start('index.html', options=options,suppress_error=True,close_callback=False,disable_cache=True)
 
     except Exception as e:
         logger.exception(e)

@@ -15,8 +15,9 @@
             "name": "Python: main",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}\\app.py",
-            "console": "integratedTerminal"
+            "program": "${workspaceFolder}/app.py",
+            "console": "integratedTerminal",
+            "preLaunchTask": "C/C++: cpp build active file"
         }
     ]
 }

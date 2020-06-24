@@ -23,9 +23,13 @@ var Test = {
     },
     bindUIActions: function(){
         a1.btnOn.on("click", async function(){
-            $("ol").append("<li> Button on click </li>");
-            console.log("Button on click");
-            await eel.click_button("on");
+            //$("ol").append("<li> Button on click </li>");
+            var get = [$("#id").val(), $("#name").val(),
+                    $("#age").val(), $("#address").val(),
+                    $("#salary").val()
+                    ];
+            console.log(get);
+            await eel.click_button(get);
         });
         a1.btnOff.on("click", async function(){
             console.log("Button on click");
